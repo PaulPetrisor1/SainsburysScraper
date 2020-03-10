@@ -27,7 +27,7 @@ dependencies {
         exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
     }
     compile "net.sourceforge.htmlunit:htmlunit:2.19"
-    compile "com.fasterxml.jackson.core:jackson-databind:2.7.0"
+    compile "com.fasterxml.jackson.core:jackson-databind:2.9.0"
     compile 'com.google.code.gson:gson:2.8.4'
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.1.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.1.0'
