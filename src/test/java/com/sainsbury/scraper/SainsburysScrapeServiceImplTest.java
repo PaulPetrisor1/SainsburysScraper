@@ -47,7 +47,7 @@ class SainsburysScrapeServiceImplTest {
 
     @Test
     void givenInvalidUrl_whenParsingHtml_thenReturnOptionalOfNonEmptyHtmlPage() {
-        Optional<HtmlPage> page = sainsburysScrapeService.getPageForUrl("zohaib.co.uk");
+        Optional<HtmlPage> page = sainsburysScrapeService.getPageForUrl("invalidUrl.co.uk");
 
         assertFalse(page.isPresent());
     }
